@@ -94,7 +94,10 @@ function buildCharts(sample) {
         y: yticks,
         //the hover text for the bars are the otu_labels in descending order
         text: otu_labels.slice(0, 10).reverse(),
-        orientation: 'h'
+        orientation: 'h',
+        marker: {
+          color: "rgb(255,100,80)"
+        }
       }
     ];
 
